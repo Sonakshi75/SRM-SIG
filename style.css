@@ -1,0 +1,194 @@
+#menu {
+	padding: 20px;
+	transition: all 0.8s;
+  display : flex;
+ justify-content : space-around;
+ align-items : center;
+ position : fixed;
+ top : 0;
+ left : 0;
+ width:100%;
+  background-color : white;
+  /* /box-shadow : 5px 10px 30px rgba(0,0,0,0.02); */
+  /* z-index : 1;
+   */
+}
+#menu.navbar-default {
+	background-color: rgba(248, 248, 248, 0);
+	border-color: rgba(231, 231, 231, 0);
+}
+#menu a.navbar-brand {
+	font-size: 22px;
+	color: #ddd;
+	font-weight: 700;
+}
+a:active{
+	color: #88bb45;
+}
+#menu a.navbar-brand i.fa {
+	color: #88bb45;
+}
+#menu.navbar-default .navbar-nav > li > a {
+	text-transform: uppercase;
+	color: #bbbbbb;
+	font-size: 12px;
+	letter-spacing: 1px;
+  text-decoration: none;
+}
+#menu.navbar-default .navbar-nav > li > a:hover {
+	color: #71bd46;
+}
+.navbar-fixed-top.scrolled {
+  background-color:black; !important;
+  transition: background-color 200ms linear;
+}
+.on {
+	background-color: #222222 !important;
+	padding: 0 !important;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #71bd46 !important;
+	background-color: transparent;
+}
+.navbar-toggle {
+	border-radius: 0;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #71bd46;
+	border-color: #71bd46;
+}
+.navbar-default .navbar-toggle:hover>.icon-bar {
+	background-color: #FFF;
+}
+.section-title {
+	padding-bottom: 50px;
+}
+
+/* Heading */
+
+.heading{
+  text-align: center;
+	background-image:url(COLLEGE-WEBSITE.jpg);
+	padding: 13%;
+	background-repeat: no-repeat;
+
+color: white; text-shadow: 1px 1px 2px green, 0 0 25px green, 0 0 5px green;
+}
+
+/* Vission section */
+
+#OurVision {
+	padding: 100px 0;
+	background-color: #f6f6f6;
+  padding: 10%;
+  align: justify;
+
+}
+#OurVision h4 {
+	border-bottom: 1px solid #b8dea2;
+	padding-bottom: 20px;
+	display: inline-block;
+  padding-top: 20%;
+}
+#OurVision p {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+#OurVision h2{
+  border-bottom: 2px solid #b8dea2;
+  padding-bottom: 20px;
+  border-width: 50%;
+	display: inline-block;
+}
+
+/* Events Section */
+
+#Events{
+  padding: 7%;
+}
+
+.green-line{
+	border-bottom: 1px solid #b8dea2;
+	padding-bottom: 20px;
+	display: inline-block;
+}
+#Events h2
+{
+  padding-bottom:20px;
+  padding-top: 10px;
+}
+.space {
+	margin-top: 40px;
+}
+#Events i.fa {
+	font-size: 36px;
+	margin-right: 20px;
+	color: #71bd46;
+	padding-bottom: 10px;
+	display: block;
+}
+
+/* Data Repository section */
+#Data{
+  padding: 10%;
+}
+#Data h2
+{
+  padding-bottom: 20px;
+}
+.column h4{
+  padding-right: 10%;
+  font-size: 1rem;
+}
+#Data h4{
+  font-size: 1rem;
+}
+#Data a{
+  text-decoration: none;
+  color:#71bd46;
+}
+
+#Data a:hover{
+  color: black;
+}
+#Guests{
+  background-color: #f6f6f6;
+  padding:10%;
+  }
+  .guestlist
+  {
+   padding-top: 30px;
+  }
+	#Team{
+		padding: 7%;
+	}
+	#teamButton{
+		background-color: #71bd46;
+		color: #fff;
+	}
+	#team_heading
+	{
+		font-size: 20px;
+	}
+	#member{
+		font-size:20px;
+	}
+	#project_list
+	{
+		font-size:18px;
+	}
+
+	#showM a{
+		color: #71bd46;
+		text-decoration: none;
+	}
+	#showM a:hover{
+		color: black;
+	}
+	#project_list a{
+		color: #71bd46;
+		text-decoration: none;
+	}
+	#project_list a:hover{
+		color: black;
+	}
